@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+}
+
+.weather {
+    z-index: 10;
+    padding: 1rem 2rem 1rem 1rem;
+    top: 5rem;
+    left: 1rem;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #fffaeb;
+    -webkit-box-shadow: 6px 11px 29px -22px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 11px 29px -22px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 11px 29px -22px rgba(0, 0, 0, 0.75);
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
