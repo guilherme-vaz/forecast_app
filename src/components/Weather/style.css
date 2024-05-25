@@ -1,4 +1,4 @@
-.search_form{
+.search_form {
     width: 950px;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,8 @@ input {
     width: 250px;
 }
 
-button, select {
+button,
+select {
     border: none;
     border-radius: 4px;
     padding: 0 8px;
@@ -70,7 +71,19 @@ select {
     align-items: center;
 }
 
-.text_icon > img {
+.text_icon>img {
     width: 40px;
     height: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .next_days {
+        flex-direction: column; 
+    }
+
+    .search_form{
+        width: 450px;
+        overflow: scroll;
+    }
+}
+
