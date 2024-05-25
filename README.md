@@ -1,6 +1,6 @@
 # Forecast App
 
-### Frontend
+### Instruções para testar o projeto
 
 ```bash
 # clone o projeto e vá para seu diretório
